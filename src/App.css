@@ -1,38 +1,24 @@
+html {
+  background-color: darkslategray;
+}
+
 .App {
   text-align: center;
+  font-family: cursive;
+  letter-spacing: .15em;
+  text-transform: lowercase;
+  font-size: 14px;
+  color: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.students {
+  border: dotted pink;
+  padding:20px;
+  margin: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scores {
+  border: dotted lightblue;
+  padding:20px;
+  margin: 10px 150px;
 }
